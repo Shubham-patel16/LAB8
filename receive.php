@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO client_info (email, address, city, province, postal_code) VALUES ('$email', '$address', '$city', '$province', '$postal_code')";
 
     if (mysqli_query($Connection, $sql)) {
-        echo "Records inserted successfully.";
+        echo "<h1>Records inserted successfully.</h1>";
     } else {
         echo "ERROR: Could not able to execute $sql. " . mysqli_error($Connection);
     }
