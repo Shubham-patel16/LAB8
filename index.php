@@ -3,6 +3,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-10">
+            <h1 class="text-center mt-4 mb-4">LAB 8 Login Form</h1>
             <form class="row g-3" method="POST" action="receive.php">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Email</label>
@@ -47,14 +48,21 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
 
-                <div class="container">
-                    <div class="row justify-content-center mt-5">
-                        <div class="col-8">
-                            <a href="viewrecords.php" class="btn btn-info w-100">View Records</a>
-                        </div>
-                    </div>
-                </div>
             </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-10">
+            <a href="viewrecords.php" class="btn btn-info w-100">View Records</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-10">
+            <a href="deleterecords.php" class="btn btn-danger w-100">To Delete Records</a>
         </div>
     </div>
 </div>
