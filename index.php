@@ -1,7 +1,6 @@
 <?php require_once 'include/header.php'; ?>
 
 <div class="container">
-    <h1>testing.. </h1>
     <div class="row justify-content-center">
         <div class="col-md-10">
             <form class="row g-3" method="POST" action="receive.php">

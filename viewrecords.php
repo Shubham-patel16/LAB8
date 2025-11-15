@@ -9,8 +9,6 @@ require_once 'db/Connection.php';
         <div class="col">
             <h1 class="text-center mt-4 mb-4">View All Records</h1>
             <?php
-            //Database connection
-            // Construct SQL SELECT query   
             $sql = "SELECT * FROM client_info";
 
             // Execute the query
